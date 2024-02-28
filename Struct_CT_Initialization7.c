@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct student
+{
+    int roll_no;
+    char name[30];
+    float marks;
+}s={3,"Nvi",91.7};
+void main()
+{
+    struct student s1={1,"Nidhi",97.8};
+    struct student s2={2,"Nupur",92.9};
+}
